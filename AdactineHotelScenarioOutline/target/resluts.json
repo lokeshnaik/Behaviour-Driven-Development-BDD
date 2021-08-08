@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8013101500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForLogin.browserSetUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Checking the login functionality with valid credentials",
+        "description": "",
+        "id": "login-functionality-check;checking-the-login-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 820700000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForLogin.browserteardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5845824800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login page of the website",
+            "match": {
+              "location": "StepsForLogin.user_is_on_login_page_of_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2249393600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters valid username and  password",
+            "match": {
+              "location": "StepsForLogin.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5037973000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter login buutton",
+            "match": {
+              "location": "StepsForLogin.user_enter_login_buutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1030933300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User lands on home page",
+            "match": {
+              "location": "StepsForLogin.user_lands_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@hooks"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality check",
+    "description": "",
+    "id": "login-functionality-check",
+    "keyword": "Feature",
+    "uri": "src/test/resources/HooksFeature/HooksLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@hooks"
+      }
+    ]
+  }
+]

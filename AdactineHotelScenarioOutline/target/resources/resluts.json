@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Checking the login functionality with valid credentials",
+        "description": "",
+        "id": "login-functionality-check;checking-the-login-functionality-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User is on login page of the website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User enters valid username and  password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enter login buutton",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User lands on home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@hooks"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality check",
+    "description": "",
+    "id": "login-functionality-check",
+    "keyword": "Feature",
+    "uri": "src/test/resources/HooksFeature/HooksLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@hooks"
+      }
+    ]
+  }
+]

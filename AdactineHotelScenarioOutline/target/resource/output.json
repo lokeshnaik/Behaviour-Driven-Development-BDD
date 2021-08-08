@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login functionality of nop commerce website",
+        "description": "",
+        "id": "login-functionality;login-functionality-of-nop-commerce-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10717441700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login page of website",
+            "match": {
+              "location": "NopCommerceLogin.user_is_on_login_page_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2265469400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the username and password",
+            "match": {
+              "location": "NopCommerceLogin.user_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4951345300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "NopCommerceLogin.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1205907000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page of nope commerence website",
+            "match": {
+              "location": "NopCommerceLogin.user_is_on_home_page_of_nope_commerence_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/nopcommerceLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smokeTest"
+      }
+    ]
+  }
+]
